@@ -74,6 +74,11 @@ To delve into the algorithm, review the [Flow Chart](https://drive.google.com/fi
 
 ![alt text](https://imagesbucket-mutantfunction.s3.amazonaws.com/Diagrama+de+flujo.jpg)
 
+#### Coverage unit test
+
+The Mutant function has unit test development with Junit, obtaining a coverage percentage of 86.42%
+
+![alt text](https://imagesbucket-mutantfunction.s3.amazonaws.com/Coverage.PNG)
 
 #### How to consume Apis?
 

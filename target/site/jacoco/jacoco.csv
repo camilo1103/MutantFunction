@@ -1,0 +1,11 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+mutantFunction,Domain.Models,DnaSecuence,0,10,0,0,0,3,0,3,0,3
+mutantFunction,Domain.Models,MutantReport,21,22,0,2,4,7,6,2,6,1
+mutantFunction,Domain.Models,Points,14,9,0,0,3,4,4,1,4,1
+mutantFunction,Domain.Models,Request,0,17,0,0,0,7,0,5,0,5
+mutantFunction,Utilities.Exceptions,DnaExceptions,28,19,0,0,5,6,8,1,8,1
+mutantFunction,Domain.DTO,DnaDBResponse,0,36,0,0,0,15,0,8,0,8
+mutantFunction,Domain.DTO,DnaDB,0,36,0,0,0,15,0,8,0,8
+mutantFunction,Infraestructure.Data,DnaDataHandler,3,99,0,4,1,25,1,6,1,4
+mutantFunction,Application,DnaValidateApplicationImpl,21,279,5,25,5,52,5,17,0,7
+mutantFunction,DistributedServices.Handlers,MutantHandler,18,41,5,7,4,6,7,4,2,2

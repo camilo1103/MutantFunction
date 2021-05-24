@@ -1,0 +1,10 @@
+Domain\Models\Request.class
+Domain\Models\DnaSecuence.class
+Domain\DTO\DnaDB.class
+Domain\DTO\DnaDBResponse.class
+Utilities\Exceptions\DnaExceptions.class
+Domain\Models\MutantReport.class
+Infraestructure\Data\DnaDataHandler.class
+Domain\Models\Points.class
+Application\DnaValidateApplicationImpl.class
+DistributedServices\Handlers\MutantHandler.class

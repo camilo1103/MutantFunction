@@ -1,7 +1,7 @@
 # Mutant Function
 ## This is a function for validating the DNA sequence
 
-[![jonathanbernal](https://lh3.google.com/u/2/d/1Uaz9im0op7yfHBKKdYLTfM3XOHaNgX_B=w1366-h568-iv2)](https://www.linkedin.com/in/jonathan-camilo-bernal-aldana-542507146/)
+[![jonathanbernal](https://imagesbucket-mutantfunction.s3.amazonaws.com/firma.png)](https://www.linkedin.com/in/jonathan-camilo-bernal-aldana-542507146/)
 
 
 The MutantFunction is an api developed in Java Maven and designed for Severless architecture. This function serves to validate the DNA sequence of a human and determine if it is mutant or not.
@@ -38,7 +38,7 @@ mvn clean package
 
 After compiling the application, you must go to the Target folder and take the file mutantFunction-1.0-SNAPSHOT.jar, in AWS in the lambda function load the code through a route an S3.
 
-![alt text](https://lh3.google.com/u/2/d/1i34wSePKUpHpmmS96bS4jqn29oJH-RLH=w1366-h625-iv2)
+![alt text](https://imagesbucket-mutantfunction.s3.amazonaws.com/Code.PNG)
 
 
 
@@ -46,7 +46,7 @@ After compiling the application, you must go to the Target folder and take the f
 
 The architecture used for this Api is a serverless architecture, this design was chosen to withstand the high fluctuations of requests made to the Api. lambda functions raise a container for each request, responding elastically to high traffic and generating a charge only for the service used. Additionally to guarantee performance, it automatically reuses the containers lifted in previous requests.
 
-![alt text](https://lh3.google.com/u/2/d/1sa8sO9JV2Kl3WUOvz1buupKap5Qx-Gyf=w1366-h568-iv2)
+![alt text](https://imagesbucket-mutantfunction.s3.amazonaws.com/Arquitectura.jpg)
 
 
 
@@ -62,16 +62,17 @@ suppose the sequence
 ```
 the matrix obtained, understanding each string as a row and each character of the strings as the columns.
 
-![alt text](https://lh3.google.com/u/2/d/1ZmlUVXrCDAGalMvKVRnVATQaP7WtfPaA=w1366-h624-iv1)
+![alt text](https://imagesbucket-mutantfunction.s3.amazonaws.com/Matriz.png)
 
 You will know if a human is a mutant, if you find more than one sequence of four letters equal, obliquely, horizontally or vertically.
 In each point it is validated that the points around exist, and if they exist it is validated if their value is equal to the character of the current letter
 
-![alt text](https://lh3.google.com/u/2/d/1KKVZwXQ_4BUb8INrZeDKmjAqmWjXhRVY=w1366-h624-iv1)
+![alt text](https://imagesbucket-mutantfunction.s3.amazonaws.com/Sobrepuesto.png)
 
 To delve into the algorithm, review the [Flow Chart](https://drive.google.com/file/d/1xoIfUIeauYrWY5zouzVlENaCVeUOyvxX/view?usp=sharing)
 
 
+![alt text](https://imagesbucket-mutantfunction.s3.amazonaws.com/Diagrama+de+flujo.jpg)
 
 
 #### How to consume Apis?

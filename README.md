@@ -48,6 +48,8 @@ The architecture used for this Api is a serverless architecture, this design was
 
 ![alt text](https://imagesbucket-mutantfunction.s3.amazonaws.com/Arquitectura.jpg)
 
+When making the first request to the endpoint it may take a little longer than normal, after that due to the reuse of containers the response will be very efficient.
+
 
 
 ## Algorithm
